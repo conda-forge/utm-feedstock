@@ -14,14 +14,15 @@ Bidirectional UTM-WGS84 converter for python.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/utm-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/utm-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/utm-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/utm-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/utm-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/utm-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/utm-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/utm-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/utm/badges/version.svg)](https://anaconda.org/conda-forge/utm)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/utm/badges/downloads.svg)](https://anaconda.org/conda-forge/utm)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-utm-green.svg)](https://anaconda.org/conda-forge/utm) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/utm.svg)](https://anaconda.org/conda-forge/utm) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/utm.svg)](https://anaconda.org/conda-forge/utm) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/utm.svg)](https://anaconda.org/conda-forge/utm) |
 
 Installing utm
 ==============
@@ -66,6 +67,7 @@ To manage the continuous integration and simplify feedstock maintenance
 Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
 this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
+For more information please check the [conda-forge documentation](https://conda-forge.org/docs/).
 
 Terminology
 ===========
