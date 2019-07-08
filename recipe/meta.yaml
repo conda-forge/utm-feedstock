@@ -1,6 +1,6 @@
 {% set name = "utm" %}
-{% set version = "0.4.2" %}
-{% set sha256 = "a6608a67df84418fd959a79b228b90ab55b2ae877827f9c210947104c5a75d0e" %}
+{% set version = "0.5.0" %}
+{% set sha256 = "07e55707ed660eec1ae983bd54a406c437962618a6261b38d70592fe30f5f508" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
