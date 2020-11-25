@@ -5,9 +5,13 @@ Home: https://github.com/Turbo87/utm
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/utm-feedstock/blob/master/LICENSE.txt)
 
 Summary: Bidirectional UTM-WGS84 converter for python.
+
+Development: https://github.com/Turbo87/utm
+
+Documentation: https://github.com/Turbo87/utm
 
 Bidirectional UTM-WGS84 converter for python.
 
