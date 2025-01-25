@@ -1,5 +1,5 @@
 {% set name = "utm" %}
-{% set version = "0.7.0" %}
+{% set version = "0.8.0" %}
 
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/utm-{{ version }}.tar.gz
-  sha256: 3c9a3650e98bb6eecec535418d0dfd4db8f88c8ceaca112a0ff0787e116566e2
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/utm-{{ version }}.tar.gz
+  sha256: 37143e7bad8390ad974fdb66de3156128f798ac54f861c2cd1c931ab411568aa
 
 build:
   number: 0
